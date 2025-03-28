@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#counterName {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 16px;
+}
+
+#addCounter {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#addCounter:hover {
+    background-color: #45a049;
+}
+
+.counter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    border-left: 4px solid #4CAF50;
+}
+
+.counter-name {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.counter-value {
+    font-size: 18px;
+    min-width: 50px;
+    text-align: center;
+}
+
+.counter-controls {
+    display: flex;
+    align-items: center;
+}
+
+.counter-btn {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.counter-btn:hover {
+    background-color: #45a049;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    margin-left: 10px;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
